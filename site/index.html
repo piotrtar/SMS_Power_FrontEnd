@@ -9,18 +9,24 @@
                     var background = document.getElementById('header');
                     var displaySetting = loginForm.style.display;
                     var loginButton = document.getElementById('LoginButton');
+
+
+
                     if (displaySetting == 'block') { 
                 
                     loginForm.style.display = 'none';
-                    clockButton.innerHTML = 'Show clock';
+                    
                     }
                     else { 
                     
+                    document.getElementById('TellMeMoreButton').style.pointerEvents = 'none';
+                    document.getElementById('SignInButton').style.pointerEvents = 'none';
+                    document.getElementById('LoginButton').style.pointerEvents = 'none';
                     loginForm.style.display = 'block';
                 
                     // background.style.background = 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("img/maxresdefault.jpg") center top / cover';
                     background.style.opacity = 0.4;
-                    clockButton.innerHTML = 'Hide clock';
+                    
                 
                     }
                 }  
@@ -40,7 +46,7 @@
                 <img src="img/logo.png" alt="" class="logo">
                 <nav id="menu">
                     <ul class="menu">
-                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="login.html" id='SignInButton'>Sign In</a></li>
                         <li><a href="javascript:showLogin();" id="LoginButton">Log In</a>
                         
                     </ul>
@@ -54,7 +60,7 @@
                     It's Nice To Meet You
                 </h1>
             </div>
-            <a class="button" href='#prices'>Tell Me More</a>
+            <a class="button" href='#prices' id="TellMeMoreButton">Tell Me More</a>
          </div>
      </header>
 

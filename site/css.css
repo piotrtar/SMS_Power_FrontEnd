@@ -46,6 +46,7 @@ nav{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
+    pointer-events: "";
 }
 
 .menu li a:focus{
@@ -113,6 +114,7 @@ h1{
         text-transform: uppercase;
         font-weight: bold;
         font-size: 18px;
+        pointer-events: "";
         
     }
     
