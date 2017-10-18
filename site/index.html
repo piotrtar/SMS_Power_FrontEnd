@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <script type="text/javascript"></script>
             <script>
                  function showLogin() { 
@@ -26,8 +26,7 @@
                 
                     // background.style.background = 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("img/maxresdefault.jpg") center top / cover';
                     background.style.opacity = 0.4;
-                    
-                
+
                     }
                 }  
 
@@ -39,6 +38,9 @@
         <link rel="stylesheet" type="text/css" href="css.css">
 
     </head>
+
+
+
     <body>
      <header id='header'>
          <div class="container" id="main_page">
@@ -54,7 +56,9 @@
             </div>
             <div class="titles">
                 <div class="titles-first">
-                    Welcome To CoolCoin System!
+                    <p>
+                        Welcome To CoolCoin System!
+                    </p>
                 </div>
                 <h1>
                     It's Nice To Meet You
@@ -77,8 +81,11 @@
                     Remember me on this computer
                 </label>
                 </p>
-                <p class="submit"><input type="submit" name="commit" value="Login"></p>
-                <button>X</button>
+                
+                <form></form><p class="submit"><input type="submit" name="commit" value="Login" onclick="window.location.href='student.html'"></p>
+                
+                <button onclick="window.location.href='index.html'">X</button>
+
             </form>
             </div>
         
