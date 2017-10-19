@@ -2,6 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("img/image1.jpg") center top / cover;
+    /* background: linear-gradient(to bottom, #ff9966 0%, #663300 91%); */
     padding: 0;
     margin: 0 !important;
 }
@@ -166,6 +167,10 @@ ol a
     font-size: 30px;
 }
 
+#myacc_btn 
+{
+    width: 250px;
+}
 ol > li
 {
     display: block;
@@ -198,7 +203,7 @@ ol > li > ul
 
 ol > li > ul > li
 {
-    background-color: #666060;
+    background-color: #AFA4A4;
     position: relative;
     z-index: 100;
     border-top: 1px solid #B4AFAF;
@@ -227,3 +232,17 @@ a.links:hover
     color: #000000;
     text-decoration: none;
 }
+
+.rightmenu > ol > li {
+    background-color: #292727;
+}
+
+.leftmenu > ol > li {
+    background-color: #AFA4A4;
+}
+
+.leftmenu > ol a
+{
+    color: #3B3838;
+}
+
