@@ -26,8 +26,8 @@
                     <div style="clear:both;"></div>
                 </div>
             </div>
-            <div class="nav">
-                <div class="leftnav">
+            <div class="menu">
+                <div class="leftmenu">
                     <ol>
                         <li><a href="#"><i class="icon-user"></i>My account</a>
                             <ul>
@@ -41,7 +41,7 @@
                         <li><a href="#"><i class="icon-users"></i>Group shopping</a></li>
                     </ol>
                 </div>
-                <div class="rightnav">
+                <div class="rightmenu">
                     <ol>
                         <li><a href="#" class="rightside"><img src="img/ccoin.png" height="40" width="40" style="float: left;"/></i>100,00</a></li>
                         <li><a href="#" class="rightside"><i class="icon-basket"></i>2</a></li>
@@ -167,15 +167,15 @@
         <script>
         
             $(document).ready(function() {
-                var NavY = $('.nav').offset().top;
+                var NavY = $('.menu').offset().top;
 
                 var stickyNav = function(){
                     var ScrollY = $(window).scrollTop();
 
                     if (ScrollY > NavY) {
-                        $('.nav').addClass('sticky');
+                        $('.menu').addClass('sticky');
                     } else {
-                        $('.nav').removeClass('sticky');
+                        $('.menu').removeClass('sticky');
                     }
                 };
 
