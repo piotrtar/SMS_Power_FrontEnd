@@ -27,7 +27,7 @@ body{
     font-weight: bold;
 }
 
-.nav
+.menu
 {
     width: 100%;
     padding: 10px 0;
@@ -38,14 +38,14 @@ body{
     border-bottom: 1px solid #282828;
 }
 
-.leftnav
+.leftmenu
 {
     width:750px;
     float: left;
     margin-left: 20px;
 }
 
-.rightnav
+.rightmenu
 {
     width:370px;
     float: right;
@@ -178,6 +178,11 @@ ol > li
     margin-right: 20px;
 }
 
+ol > li:hover
+{
+    background-color: #464444;
+}
+
 ol > li:hover > ul
 {
     display: block;
@@ -209,4 +214,16 @@ ol > li > ul > li:hover
 ol > li > ul > li:hover > a
 {
     color: #C0B62F;
+}
+
+a.links
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.links:hover
+{
+    color: #000000;
+    text-decoration: none;
 }
