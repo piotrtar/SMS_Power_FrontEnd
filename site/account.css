@@ -171,6 +171,12 @@ ol a
 {
     width: 250px;
 }
+
+#cart_btn:hover
+{
+    background-color: #757070
+}
+
 ol > li
 {
     display: block;
@@ -237,8 +243,13 @@ a.links:hover
     background-color: #292727;
 }
 
+
 .leftmenu > ol > li {
     background-color: #AFA4A4;
+}
+
+.leftmenu > ol > li:hover {
+    background-color: #3B3939;
 }
 
 .leftmenu > ol a
@@ -246,3 +257,12 @@ a.links:hover
     color: #3B3838;
 }
 
+.rightmenu > ol a
+{
+    color: #fff
+}
+
+.leftmenu > ol > li:hover > a
+{
+    color: #C0B62F;
+}
